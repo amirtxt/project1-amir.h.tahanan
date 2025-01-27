@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    background-color: blanchedalmond;
+}
+
+main{
+    background-color: #EBE8E2;
+}
+
+header li{
+    display: inline-block;
+}
+
+.navbar{
+    color: black;
+    text-decoration: none;
+    padding: 12px;
+
+}
+
+.navbar:hover{
+    color: brown;
+    background-color: white;
+}
+
+
+.container {
+    max-width: 1080px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.headshot{
+    border-radius: 50%;
+}
+
+
+.abt, .futureproj, .futureserv{
+    background-color: rgb(223, 223, 223);
+    text-align: center;
+    padding: 80px;
+}
+
+.desc{
+    padding: 60px;
+}
+
+.links{
+    text-align: center;
+    padding: 80px;
+}
+
+.cont-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 76px;
+}
+
+.contflex, .portflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+}
+
+.foodimg{
+    padding: 20px;
+}
+
+h1{
+    font-weight: 200;
+    font-size: 46px;
+    line-height: 1;
+}
+
+h3{
+    font-weight: 200;
+}
+
+
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    flex-wrap: wrap; /*rearranges link cards based on dimensions, 2 rows*/
+}
+
+.flexcards{
+    border: 1px solid black;
+    width: 200px;
+    border-radius: 6px;
+    background-color:rgb(223, 223, 223) ;
+    text-align: center;
+    margin: 50px; /* distance between each card, creates two rows when wrapped */
+    padding: 10px;
+    box-sizing: border-box; /*size of cards change*/
+}
+
+.flexcards:hover{
+    background-color: rgb(190, 190, 190);
+}
+
+
+.proj2, .phil{
+    background-color: rgb(223, 223, 223);
+}
+
+.projectimg{
+    border-radius: 10px;
+}
+
+.resume{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+.techskills{
+    background-color: rgb(223, 223, 223);
+    padding: 80px;
+}
+
+.interests{
+    padding: 80px;
+}
